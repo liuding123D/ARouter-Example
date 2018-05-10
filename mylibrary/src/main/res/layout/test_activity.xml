@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/llHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            style="@style/cell_list_item_small"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                android:text="service实现跳转回MainAct"
+                android:textColor="#ffffff"
+                android:background="#333333"
+                android:textSize="12sp"
+                android:clickable="false"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            style="@style/cell_list_item_small"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                android:text="ARouter直接跳转回MainAct"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:background="#333333"
+                android:clickable="false"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3"
+            style="@style/cell_list_item_small"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                android:text="跳转到中间模块的TestFinishAct"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:background="#333333"
+                android:clickable="false"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_all_department"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/tvCoName"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="生活会（0）"
+            android:textColor="#76777B"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
